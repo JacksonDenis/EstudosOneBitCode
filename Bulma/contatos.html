@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudo bulma</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28">
+                </a>
+            </div>
+            <div id="navbarBasicExample" class="navbar-menu is-active">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="index.html">
+                        Inicio
+                    </a>
+                    <a class="navbar-item" href="contatos.html">
+                        Contatos
+                    </a>
+                </div>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is-4by3">
+                                <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
+                            </figure>
+                        </div>
+                        <div class="card-content">
+                            <div class="media">
+                                <div class="media-content">
+                                    <p class="title is-4">John Smith</p>
+                                    <span class="tag is-dark is-medim">Javascript Full Stack Developer</span>
+                                </div>
+                            </div>
+                            <p>(19)1111-1111</p>
+                            <br>
+                            <p>jackson.denis@live.com</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column is-9">
+                    <div class="card">
+                        <header class="card-header">
+                            <p class="card-header-title">
+                            Contato
+                            </p>
+                            <br>
+                        </header>
+                        <div class="field">
+                            <label class="label">Email</label>
+                            <div class="control has-icons-left has-icons-right">
+                                <input class="input " type="email" placeholder="Email input" value="Ola">
+                                <span class="icon is-small is-left">
+                                    <i class="fas fa-envelope"></i>
+                                </span>
+                                <span class="icon is-small is-right">
+                                    <i class="fas fa-exclamation-triangle"></i>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <label class="label">Mensagem</label>
+                            <div class="control">
+                                <textarea class="textarea" placeholder="Textarea"></textarea>
+                            </div>
+                        </div>
+                        <div class="field is-grouped">
+                            <div class="control">
+                                <button class="button is-primary">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+</body>
+</html>
