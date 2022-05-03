@@ -1,5 +1,5 @@
 import React, { Fragment, useState, useEffect } from 'react';
-import Planet from '../planets/planet';
+import Planet from './planet';
 import Form from './form';
 
 async function getPlanets() {
